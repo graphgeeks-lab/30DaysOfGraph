@@ -99,7 +99,8 @@ Goal: hands-on modeling & querying
 
 ## Phase 4: Graph Algorithms & Applications (Days 21–26)
 
-Goal: extract value from graphs
+Goal: extract value from graphs (You may implement this using a graph database or engine or networkX)
+
 
 | Day | Name | Description | Activity |
 |----:|------|-------------|----------|
@@ -121,6 +122,21 @@ Goal: production mindset & inspiration
 | Day 29 | Real-World Use Cases | Fraud<br><br>Recommendations<br><br>Knowledge graphs in enterprise | Map your graph to a real use case |
 | Day 30 | Becoming a Graph Engineer / Scientist | Skills roadmap<br><br>Tooling ecosystem<br><br>Community | Share your final model and lessons learned |
 
+
+##  Optional: Graph Analysis & Visualization
+
+For participants interested in graph analytics and exploration, you may optionally use tools such as:
+
+- **NetworkX** (Python)
+  - Learning graph algorithms
+  - Centrality and community detection
+  - Small to medium graphs
+
+- **Graph Visualization Tools**
+  - For understanding and communicating insights
+  - Useful for model validation and storytelling
+
+These tools are optional and not required to complete the challenge.
 
 
 ## 🏆 Prizes & Recognition

@@ -43,20 +43,32 @@ By the end of 30 days, you will:
    ```
 
 
-## 📅 30 Days of Graph — Daily Challenge Plan
+## 📅 30 Day of Graph Challenge Plan 
+### #30DayGraphChallenge 
+
+Phase 1: Graph Thinking & Foundations (Days 1–7)
+
+Goal: rewire how people think about data
 
 | Day | Name | Description | Activity |
 |----:|------|-------------|----------|
-| Day 1 | What is Graph Engineering? | What problems graphs solve, learning the differences between Graph engineer vs data engineer vs data scientist and Real-world examples (fraud, recommendations, knowledge graphs) | Write 3 problems you’ve seen that involve relationships |
-| Day 2 | Graph Thinking | Thinking in relationships instead of tables<br><br>Why joins break down at scale<br><br>Nodes, relationships, and paths as first-class citizens | Take a real-world problem and describe it as nodes and relationships |
-| Day 3 | Graph Theory (Just Enough) | What is a graph?<br><br>Nodes, edges, paths, cycles<br><br>Directed vs undirected graphs | Draw the same graph once as directed and once as undirected |
-| Day 4 | Nodes, Edges & Properties | What belongs on nodes?<br><br>What belongs on relationships?<br><br>Properties as context | Add properties to your Day 3 graph |
-| Day 5 | Types of Graphs | Directed vs undirected<br><br>Weighted graphs<br><br>Bipartite graphs | Identify which graph type best fits your use case |
-| Day 6 | Linked Data | Global identifiers (URIs)<br><br>Why IDs matter<br><br>Connecting data across systems | Find 3 global identifiers relevant to your domain |
-| Day 7 | What is a Knowledge Graph? | From graphs to meaning<br><br>Semantics and context<br><br>Knowledge graphs in search & AI | Explain a knowledge graph in one paragraph (non-technical) |
-| Day 8 | Graph Data Modeling Basics | Entities vs relationships<br><br>Cardinality<br><br>Direction matters | Create a conceptual graph model (no tools) |
-| Day 9 | Modeling Relationships | Verb-based relationships<br><br>Avoiding “has_*” anti-patterns<br><br>Events vs facts | Refactor weak relationships into strong ones |
-| Day 10 | Modeling Nodes | What deserves its own node?<br><br>Splitting entities<br><br>Super nodes | Identify potential super nodes in your model |
+| Day 1 | What is Graph Engineering? | - What problems graphs solve <br>- Graph engineer vs data engineer vs data scientist <br> - Real-world examples (fraud, recommendations, knowledge graphs) | Write 3 problems you’ve seen that involve relationships |
+| Day 2 | Graph Thinking | - Thinking in relationships instead of tables <br> - Nodes vs Joins <br>- Paths as first-class citizens | Take a real-world problem and describe it as nodes and relationships |
+| Day 3 | Graph Theory (Just Enough) | What is a graph?<br>Nodes, edges, paths, cycles<br>Directed vs undirected graphs | Draw the same graph once as directed and once as undirected |
+| Day 4 | Properties & Attributes | What are nodes properties?<br> What are relationship properties?<br>When data belongs on nodes vs edges? | Add properties to your Day 3 graph |
+| Day 5 | Types of Graphs | You will learn the difference between: <br> - Directed vs undirected<br>- Weighted graphs<br> - Bipartite graphs <br> - Multigraphs | Identify which graph type best fits your use case |
+| Day 6 | What is Linked Data |- URIs <br> - Global identifiers <br> - Linking across datasets | Find 3 real-world identifiers (ISBN, ORCID, Wikidata ID) |
+| Day 7 | What is a Knowledge Graph? | - Definition <br> - How knowledge graphs differ from “just graphs”<br> - Semantics, meaning, context (Knowledge graphs in search & AI) | Explain a knowledge graph in one paragraph (non-technical) |
+
+Phase 2: Graph Data Modeling (Shared Core) (Days 8–14)
+
+Goal: learn modeling BEFORE technology
+
+| Day | Name | Description | Activity |
+|----:|------|-------------|----------|
+| Day 8 | Graph Data Modeling Basics |- Entities vs relationships<br>- Cardinality<br>- Direction matters | Create a conceptual graph model (no tools) |
+| Day 9 | Modeling Relationships | - Verb-based relationships<br>- Avoiding “has_*” anti-patterns<br> - Modeling Events vs facts | Refactor weak relationships into strong ones |
+| Day 10 | Modeling Nodes | What deserves its own node?<br>When to split vs merge entities<br> Super nodes & anti-patterns | Identify potential super nodes in your model |
 | Day 11 | Normalization in Graphs | What applies from relational theory<br><br>What does not apply<br><br>Why over-normalization hurts graphs | Normalize a flat dataset into a graph |
 | Day 12 | LPG vs RDF (Conceptual) | Label Property Graphs<br><br>RDF & triples<br><br>Same graph, different representations | Map your model to LPG and RDF on paper |
 | Day 13 | Choosing LPG or RDF | Trade-offs<br><br>Performance vs semantics<br><br>Schema vs ontology | Decide which model fits your use case and why |

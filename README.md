@@ -49,7 +49,7 @@ By the end of 30 days, you will:
 5. Commit and open a Pull Requests
 6. Share what you learned on linkedin using the following to get reposted:
    ```
-      #30DayGraphChallenge #GraphGeeks @GraphGeeksOrg
+      #30DayGraphChallenge #30DaysOfGraph #GraphGeeks @GraphGeeksOrg
    ```
 
 
